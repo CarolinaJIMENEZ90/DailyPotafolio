@@ -2,79 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=, initial-scale=1.0 use-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>MiPotafolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <a href=#SobreMI>Sobre MI</a>
-            <a href=#Proyectos>Proyectos</a>
-            <a href=#inf.Contacto>Inf. Contacto</a>
-        </ul>
-    </nav>
+ <section id="inicio">
+
+<div class="contenido">
     <header>
-        <h1>Daily C. Campos Jimenez</h1>
-        <p>Naci en Vezuela el 20 de Septiembre de 1990, mis Padres se llaman Ramona Jimenez y Jhonny Campos
-            tengo 3 hermanos, soy graduada de Tecnico Medio en Adminitracion Financiera
-            y Tecnico Superiol en Analisis y Diseno de Sistema.Actualmente estoy residenciada en Brasil
-            Londrina-Parana ya hace 3 anos, soy casada tengo una hija de 3 anos llamada Miranda sofia, Mis expectativa es desenvolverme como una profecional en Full Stak
-            y encontrar mi primer empleo en el area de la tecnologia.
-        </p>
+        <div class="contenido-header">
+            <h1>D.C</h1>
+            <nav id="nave" class="">
+
+                <ul id="links">
+                   <li><a href="#inicio" class="seleccionado">Inicio</a></li>  
+                   <li><a href="#sobremi">Sobre Mi</a></li> 
+                   <li><a href="#portafolio">Portafolio</a></li>
+                   <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        <div id="icono-nav">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="redes">
+         <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+         <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        </div>
     </header>
- 
-    <img src="img/IMG-20220516-WA0070.jpg" width="150px" height="150px">
-    <h2 id="SobreMI"> Sobre MI</h2>
-    <div class="DEMI">
-      <P>Cosas que me gustan:</P>
-      <ul>
-        <li>Escuchar Musica</li>
-        <li>Andar de bicicleta</li>
-        <li>Limpiar la casa</li>
-        <li>Ir al Cine</li>
-        <li>Comer Paticho</li>
-        <li>Planificar las actividades que voy hacer</li>
-      </ul>
+<div class="presentacion">
+    <p class="Bienvenido"> Bienvenido</p>
+    <h2>Soy <span>Daily Campos</span>,Analista de Sistema</h2>
+    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quae praesentium laborum aliquam ex minima modi soluta, officia voluptatem? Soluta expedita ullam .</p>
+    <a href="#proyectos">Ir a los Proyectos</a>
+</div>
+</div>
+   </section> 
+   <section id="sobremi">
+
+<div class="contenedor-foto">
+    <img src="img/IMG-20220516-WA0070.jpg">
+
+</div>
+<div class="sobremi">
+  <p class="titulo-seccion">Sobre Mi</p>
+  <h2> Hola soy <samp>Daily Campos</samp></h2>
+  <h3>Soy Desarrollador  Web</h3> 
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magni molestiae numquam. Ea ipsa totam ipsam libero a quam et molestiae ad, quas vero, quod culpa, veritatis quo? Accusantium, dignissimos!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minus distinctio accusamus libero magni consequatur. Provident quisquam atque hic fuga nostrum minima laudantium saepe explicabo enim eos perferendis, dolores amet!</p> 
+  <a href="#">Descargar CV</a>
+</div>
+   </section>
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+    <div class="skill">
+        <div class="info">
+        <P><span class="lista"></span>HTML & CSS</P>
+         <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+            <div id="html" class=""></div>
+        </div>
     </div>
-    <section >
-
-    <h2 id="Proyectos"> Proyectos </h2>
-    <div class="Proy 1">
-        <H3>Proyecto 1</H3>
-        <img src="img/imagen1.jpg" width="150px" height="150px">
-        <p> Formulario de registro creado con HTML e CSS.</p>
-
+    <div class="skill">
+        <div class="info">
+        <P><span class="lista"></span>Javascript</P>
+         <span class="porcentaje">60%</span>
+        </div>
+        <div class="barra">
+            <div id="js" class=""></div>
+        </div>
     </div>
-    <div class="Proy 2">
-        <H3>Proyecto 2</H3>
-        <img src="img/inmagen2.gif" width="150px" height="150px">
-        <p> Calculadora realizada con HLTM,CSS Y JS.</p>
-
+    <div class="skill">
+        <div class="info">
+        <P><span class="lista"></span>Base de Datos</P>
+         <span class="porcentaje">70%</span>
+        </div>
+        <div class="barra">
+            <div id="bd" class=""></div>
+        </div>
     </div>
-    <div class="Proy 3">
-        <H3>Proyecto 3</H3>
-        <img src="img/inmagen3.jpg" width="150px" height="150px">
-        <p> Cemafaro realizado HLTM,CSS Y JS.</p>
-
+     <div class="skill">
+        <div class="info">
+        <P><span class="lista"></span>Photoshop</P>
+         <span class="porcentaje">50%</span>
+        </div>
+        <div class="barra">
+            <div id="ps" class=""></div>
+        </div>
     </div>
-       
-    </section>
+</div>
+<section id="portafolio">
+    <h3 class="titulo-seccion">Mis Proyectos</h3>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+                <img src="img/formulario_1.png" width="200px" height="200px">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                     <P>FORMULARIO  realizado con HTML e CSS</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+                <img src="img/proyecto_2.png" width="200px" height="200px">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                     <P>Card de Zapatos  realizado con HTML e CSS</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="proyecto">
+            <div class="overlay"></div>
+                <img src="img/proyecto-3.png" width="200px" height="200px">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                     <P>Calculadora realizado con HTML, CSS e Javascript</P>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contacto">
+    <h3 class="titulo-seccion">Contactanos Ahora</h3>
+<div class="contenedor-form">
+   <form action="">
+       <div class="fila mitad">
+           <input type="text" placeholder="Nombre Completo" class="input-mita">
+           <input type="email" placeholder="email" class="input-mita">
+       </div>
+       <div class="fila">
+        <input type="text" placeholder="TEMA" class="input-full">   
 
-   
-    <section>
-        <h2 id="inf.Contacto">Inf.Contacto</h2>
-        <ol>
-            <li><strong>dailycampos2904@gmail.com</strong></li>
-            <li><strong>GitHub:CarolinaJIMENEZ90</strong></li>
-          </ol>
-    </section> 
-    <hr>
-    <hr>
-    <footer>
-      <P><em>Daily C.Campos Jimenez</em></P>
-      <p><strong><em> Ningun exito en la vida Compensa el fracaso en el hogar</em></strong> </p>
-    </footer>
+       </div>
+      <div class="fila">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje" class="input-full"></textarea>
+
+      </div>
+    <input type="submit" value="Enviar Mensaje" class="btn-enviar"> 
+   </form> 
+</div>
+</section>
+<footer>
+    <p> Ningun exito en la Vida compensa en fracaso en el Hogar</p>
+<div class="redes">
+    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+</div>
+</footer>
+
 </body>
 
 </html>
